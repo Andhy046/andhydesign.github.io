@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header.navbar {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header.navbar h1 {
+    margin-bottom: 10px;
+}
+header.navbar nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+#hero {
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+    color: white;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    color: #3b82f6;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #e0e0e0;
+}
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+#services li {
+    margin: 12px 0;
+    font-size: 1.1em;
+}
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portfolio-grid img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+footer {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
